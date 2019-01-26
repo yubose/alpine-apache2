@@ -19,7 +19,7 @@ VOLUME      ["/var/log/apache2"]
 # soon after start
 # To run this container in the back ground use the -d option
 #
-#     $ sudo docker run -d broadtech/alpine-apache2
+#     $ sudo docker run -d hyugecloud/alpine-apache2
 #
 
 CMD         ["-D", "FOREGROUND"]
